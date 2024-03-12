@@ -1,2 +1,2 @@
-# WebProject-RS-Studio
-Project to create the website for the photography shop River Side Studio in May 2022.
+# Redesign-WebProject-RS-Studio
+The project was a redesign of the photography shop "RiverSide Studio" website, originally created in May 2021 and redesigned in March 2024.
