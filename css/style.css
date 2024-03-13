@@ -44,10 +44,17 @@ body {
   display: none;
 }
 
-h1,
+/* h1,
 h3,
 h4 {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman",
+    serif;
+} */
+
+h1,
+h3,
+h4 {
+  font-family: "Helvetica Neue", Garamond, "Big Caslon", "Times New Roman",
     serif;
 }
 
