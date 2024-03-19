@@ -9,10 +9,11 @@
   
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
-  <link rel="icon" href="favicon/favicon.ico" id="favicon">
+  <link rel="icon" href="../favicon/favicon.ico" id="favicon">
   <link rel="apple-touch-icon" href="favicon/apple-touch-icon.ico">
 
   <script src="../scripts/mobileNav.js" defer></script>
+  <script src="../scripts/catNewsLetter.js" defer></script>
   <script src="../scripts/subscribeEmail.js" defer></script>
   
 </head>
@@ -20,57 +21,14 @@
 <body id="top">
   
   <header class="page-header">
-    <section class="hero">
+    <section class="hero">      
       <div class="header-button">
 
-        <div class="header-left">
-          <a class="language-btn" id="lng-btn">
-            <img src="../images/language_button.png" alt="choose language button">
-          </a>
-          <a href="javascript:;" class="pulldown-btn" id="pld-btn">
-            <img src="../images/pulldown_button.png" alt="pulldown button to choose language">
-          </a>
-
-          <nav class="lng-navigation" id="pld-list">
-            <a href="javascript:;" class="close-btn" id="cls-btn">
-                <img src="../images/button_close.png" alt="close button for mobile nav">
-            </a>
-            <ul class="pulldown-list">
-              
-              <li><a href="#">English</a></li>
-              <li><a href="#">French</a></li>
-              <li><a href="#">German</a></li>
-              <li><a href="#">Italy</a></li>
-            </ul>
-          </nav>
-
-          <a href="javascript:;" class="login-btn" id="log-btn">
-            <img src="../images/login_button.png" alt="Login button">
-          </a>
-
-          <div class="login-form" id="log-form">
-            <form action="#" method="post">
-              <h6>Log In</h6>
-
-              <div class="subscribe">
-                <label for="email-1">Email</label>
-                <input id="email-1" class="email-1" type="email"  name="email" autocomplete="email">
-              </div>
-
-              <div class="subscribe">
-                <label for="password-1">Password</label>
-                <input id="password-1" class="password-1" type="password" >
-              </div>
-              
-              <input class= "submit-login" type="submit" value="Log in" >
-            </form>
-          </div>
-        </div>
+        <div class="header-left"></div>
 
         <div class="header-middle">
           <a href="../index.html">
-            <h1 class="hero-title">RiverSide Studio</h1>
-            <h3 class="hero-subtitle">Scotland</h3>
+            <img src="../images/Logo_Typo.png" alt="Logo of Company" class="page-typo">
           </a>
         </div>
 
@@ -85,91 +43,57 @@
             </a>
             <ul class="navigation-list">
               <li><a href="../index.html">Home</a></li>
-              <li><a href="studio.html">Studio</a></li>
+              <li><a href="studio.html">Studios</a></li>
               <li><a href="services.html">Services</a></li>
               <li><a class="active" href="photographers.html">Photographers</a></li>
               <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>           
+        </div>
+
+      </div>
+    </section>  
+
+  <!-- @media size 1366px Start ***************************************************-->
+    <section class="desktop-header">          
+      <div class="header-button">
+        <div class="header-middle">
+          <a href="../index.html">
+            <img src="../images/Logo_Typo.png" alt="Logo of Company" class="page-typo">
+          </a>
+        </div>         
+      
+        <div class="desktop-menu">
+          <nav class="desktop-navigation">
+            <ul class="navigation-menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="studio.html">Studios</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a class="active" href="photographers.html">Photographers</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
-        
-      </div>
+      </div>   
+
     </section>
-  </header>
-
-<!-- @media size 1366px Start-->
-  <header class="desktop-header">
-    <section class="header-top">
-      <div class="header-text">
-        <a href="../index.html">
-          <h1 class="header-title">RiverSide Studio</h1>
-          <h3 class="header-subtitle">Scotland</h3>
-        </a>
-      </div>
-
-      <div class="language-right">
-        <nav class="navigation-right">
-          <ul class="list-right">
-            <li>Language</li>
-            <li><a href="#">EN</a></li>
-            <li><a href="#">FR</a></li>
-            <li><a href="#">GE</a></li>
-            <li><a href="#">IT</a></li>
-            <li>
-              <a href="javascript:;" class="login-right-btn" id="log-right-btn">
-              <img src="../images/login_button.png" alt="Log-in button on list-right hand side">
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="login-right-form" id="log-dsk-form">
-          <form action="#" method="post">
-            <h6>Log In</h6>
-            <div class="subscribe">
-              <label for="email-2">Email</label>
-              <input id="email-2" type="email" class="email-2" name="email" autocomplete="email" />
-            </div>
-
-            <div class="subscribe">
-              <label for="password-2">Password</label>
-              <input id="password-2" type="password" class="password-2" />
-            </div>
-            
-            <input class= "submit-login" type="submit" value="Log in" >
-          </form>
-        </div>
-
-      </div>
-      <div class="desktop-menu">
-        <nav class="desktop-navigation">
-          <ul class="navigation-menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="studio.html">Studio</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a class="active" href="photographers.html">Photographers</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-  </header>
-<!-- @media size 1366px End-->
+  </header>  
+  <!-- @media size 1366px End *****************************************************-->
 
   <main class="page-content">
     
     <section class="section-services">
-      <div class="studio">
-        <p >Photographers</p>
-      </div>
-      <div class=second-level>
-        <a class="level-parts" href="#job">Recruitment></a>
+      
+      <div class="services-title">
+        <h1 >Photographers</h1>
       </div>
       
-      <div class="under-line">
-        <h2 >Our Photographers</h2>
+      <div class="copywriting_services">
+        <p>
+          Our all staff members are photographer and has individuality and skilled. We offer a wide ranging choice of professional photographers with experience in many different areas from weddings and styling to action sports and kids photography.
+        </p>
       </div>
     </section>
     
@@ -177,24 +101,24 @@
       <div class="services-container">
 
         <div class="service-card">
-        <a id="pg01" class="anchor"></a>
-          <h4>Paul Nicklen</h4>
+          <a id="pg01" class="anchor"></a>
           <div class="card-inner">
-            <div class="studio-container">
+            <div class="studio-container" >
               <img src="../images/our_photographer.jpg" alt="Image of the Dundee studio" class="service-image">
               <div class="overlay">
                 <div class="text">Design Director <br>and<br> CEO</div>
               </div>
             </div>
-            <p>
-              Born and raised in Dundee, Paul specializes in portraiture and publicity photography. He has a great sense of colour and has been a successful art director on the creative team. He used these experiences to create this River Side Studio in 2007. He has now grown his studio to work on projects in collaboration with companies.
-            </p>
+            <h2>Paul Nicklen</h2>
+              <p>
+                Born and raised in Dundee, Paul specializes in portraiture and publicity photography. He has a great sense of colour and has been a successful art director on the creative team. He used these experiences to create this River Side Studio in 2007. He has now grown his studio to work on projects in collaboration with companies.
+              </p>
+            <!-- </div> -->
           </div>
         </div>
 
         <div class="service-card">
-        <a id="pg02" class="anchor"></a>
-          <h4>Diane Arbus</h4>
+          <a id="pg02" class="anchor"></a>
           <div class="card-inner">
             <div class="studio-container">
               <img src="../images/worker01.jpg" alt="Image of the Dundee studio" class="service-image">
@@ -202,16 +126,15 @@
                 <div class="text">Photo Director</div>
               </div>
             </div>
+            <h2>Diane Arbus</h2>
             <p>
               Diane has supported the studio since its inception with her CEO with experience in filming and making short films. Specialises in shooting anniversaries, baby photos and family photos. Diane will be in charge of pet photography in the new studio as one of the main resident photographers.
-
             </p>
           </div>
         </div>
         
         <div class="service-card">
           <a id="pg03" class="anchor"></a>
-          <h4>Ryan McGinley</h4>
           <div class="card-inner">
             <div class="studio-container">
               <img src="../images/worker02.jpg" alt="Image of the Dundee studio" class="service-image">
@@ -219,15 +142,15 @@
                 <div class="text">Stylist <br>and<br> Photographer</div>
               </div>
             </div>
-          <p>
-            Ryan has worked as a magazine hair artist in London. With his exciting hands-on approach, you can expect total coordination of fashion, hair, and makeup. If considering modelling shoots Ryan is your man!
-          </p>
+            <h2>Ryan McGinley</h2>
+            <p>
+              Ryan has worked as a magazine hair artist in London. With his exciting hands-on approach, you can expect total coordination of fashion, hair, and makeup. If considering modelling shoots Ryan is your man!
+            </p>
           </div>
         </div>
         
         <div class="service-card">
           <a id="pg04" class="anchor"></a>
-          <h4>Mike Kelley</h4>
           <div class="card-inner">
             <div class="studio-container">
               <img src="../images/worker05.jpg" alt="Image of the Dundee studio" class="service-image">
@@ -235,16 +158,15 @@
                 <div class="text">Photographer</div>
               </div>
             </div>
-          <p>
-            Mike comes to us off the back of his recent National Gegraphic Photographer of the Year Award for his stunning portrait photography.
-            He uses these skills and techniques to create stunning and dynamic memories of weddings and events.
-          </p>
+            <h2>Mike Kelley</h2>
+            <p>
+              Mike comes to us off the back of his recent National Gegraphic Photographer of the Year Award for his stunning portrait photography. He uses these skills and techniques to create stunning and dynamic memories of weddings and events.
+            </p>
           </div>
         </div>
 
-        <a id="pg05" class="anchor"></a>
         <div class="service-card">
-          <h4>Christina Kumazawa</h4>
+          <a id="pg05" class="anchor"></a>
           <div class="card-inner">
             <div class="studio-container">
               <img src="../images/worker04.jpg" alt="Image of the Dundee studio" class="service-image">
@@ -252,15 +174,15 @@
                 <div class="text">Film Director</div>
               </div>
             </div>
-          <p>
-            Christina has a background in editing TV commercials and advertisements and video processing. She can respond quickly and is attentive to her clients detailed requests which makes her a highly valued member in our company.
-          </p>
+            <h2>Christina Kumazawa</h2>
+            <p>
+              Christina has a background in editing TV commercials and advertisements and video processing. She can respond quickly and is attentive to her clients detailed requests which makes her a highly valued member in our company.
+            </p>
           </div>
         </div>
 
-        <a id="pg06" class="anchor"></a>
         <div class="service-card">
-          <h4>Sam Kolder</h4>
+          <a id="pg06" class="anchor"></a>
           <div class="card-inner">
             <div class="studio-container">
               <img src="../images/worker03.jpg" alt="Image of the Dundee studio" class="service-image">
@@ -268,9 +190,10 @@
                 <div class="text">Film Photographer</div>
               </div>
             </div>
-          <p>
-            Sam specialises in outdoor documentary filming and comes from Switzerland. His unique ability to be in the right place at the right time allows him to create videos to stun the viewer.
-          </p>
+            <h2>Sam Kolder</h2>
+            <p>
+              Sam specialises in outdoor documentary filming and comes from Switzerland. His unique ability to be in the right place at the right time allows him to create videos to stun the viewer.
+            </p>
           </div>
         </div>
 
@@ -280,13 +203,12 @@
     <a id="job" class="anchor"></a>
     <section class="section-private">
       <div class="under-line">
-        <h2>Recruitment</h2>
+        <h4>Recruitment</h4>
       </div>
 
       <div class="private-container">
 
-        <div class="private-card">
-          <h4>Job requirement</h4>
+        <div class="image-box">
           <div class="private-inner">
             <div class="studio-container">
               <div class="private">
@@ -297,23 +219,26 @@
               </div>
             </div>
             
+            <h2>Job requirement</h2>
             <p>
               Due to our ever increasing size and number of outlets we are constantly on the look-out for young and up-coming videogarphers looking to make their mark on the world. Drop us a line or send us your CV and portfolio to arrange an interview.
             </p>
+
+            <div class="requirement">
+              <p><b><i class="fas fa-camera-retro"></i>
+                Experience as a photographer is essential.
+              </b></p>
+              <p><b><i class="fas fa-camera-retro"></i>
+                Photo &pm; video editing software can be used.
+              </b></p>
+              <p><b><i class="fas fa-camera-retro"></i>
+                e.g. Photoshop, Adobe Premiere Pro, Filmora.
+              </b></p>
+              <p>
+                More details please contact us. <a href="mailto:Riverside-Studios.uk"> Riverside-Studios.uk</a>
+              </p>
+            </div>
             
-            <p><b><i class="fas fa-camera-retro"></i>
-              Experience as a photographer is essential.
-            </b></p>
-            <p><b><i class="fas fa-camera-retro"></i>
-              Photo & video editing software can be used.
-            </b></p>
-            <p><b><i class="fas fa-camera-retro"></i>
-              e.g. Photoshop, Adobe Premiere Pro, Filmora.
-            </b></p>
-            <p>
-              More details please contact us.
-              <a class="job-mail" href="mailto:Riverside-Studios.uk"> Riverside-Studios.uk</a>
-            </p>
           </div>
           
         </div>
@@ -321,73 +246,8 @@
       </div>
     </section>
 
-    <section class="section-table">
-      <div class="under-line">
-       <h2>Opening Hours</h2>
-      </div>
-
-      <table>
-        <tr>
-          <th>Day</th>
-          <th>Times</th>
-        </tr>
-
-        <tr>
-          <td>Weekdays</td>
-          <td>10am - 5pm</td>
-        </tr>
-
-        <tr>
-          <td>Saturdays</td>
-          <td>10am - 5pm</td>
-        </tr>
-
-        <tr>
-          <td>Sundays</td>
-          <td>12pm - 3pm</td>
-        </tr>
-
-        <tr>
-          <td>Wednesdays</td>
-          <td>Closed</td>
-        </tr>
-      </table>
-
-      <a href="contact.html" class="btn-primary">Book Your Visit</a>
-
-    </section>
-
-    <section class="section-contact">
-      
-      <div class="under-line">
-       <h2>Contact</h2>
-      </div>
-      <div class="contact-box">
-        <div class="contact-studio">
-          <h4><u>Studio 1 / Dundee</u></h4>
-            <p>1234-555-666</p>
-            <a class="job-mail" href="mailto:Riverside-Studios.uk"> Riverside-Studios.uk</a>
-            <p>111Dundee Road Dundee<br>Scotland, DD11SE</p>
-        </div>
-
-        <div class="contact-studio">
-          <h4><u>Studio 2 / Perth</u></h4>
-            <p>1256-777-888</p>
-            <a class="job-mail" href="mailto:Riverside-Studios.uk"> Riverside-Studios.uk</a>
-            <p>222Perth Road, Perth<br>Scotland, PH11AA</p>
-        </div>
-
-        <div class="contact-studio">
-          <h4><u>Studio 3 / Broughty Ferry</u></h4>
-          <p>Coming soon</p>
-        </div>
-      </div>
-        <a href="contact.html" class="btn-contact">Contact Us</a>
-
-    </section>
-
     <section class="section-subscribe">
-      <h4>Subscribe to our news letter to get special offers</h4>
+      <h2>Subscribe to our news letter to get special offers</h2>
 
       <div class="subscribe-email">
         <form action="#" method="post">
@@ -427,20 +287,46 @@
       
     </div>
 
-    <div class="footer-colum">
+    <div class="footer-back">
       <a href="#top">Back to top</a>
-      
-      <p>Riverside Studio &copy;2021</p>
+    </div>
+    
+    <div class="footer-colum">
+      <div class="footer-links">
+        <ul>
+          <li><a href="privacy_policy.html">Privacy Policy |</a></li>
+          <li><a href="contact.html">Contact |</a></li>
+          <li><a href="services.html">New Services |</a></li>
+          <li><button id="btn6">Newsletter |</button></li>
+          <li><a href="reviews.html">Reviews |</a></li>
+          <li><a href="photographers.html#job">Careers</a></li>
+        </ul>  
+      </div>
+    </div>
+    <!-- CTA popup Start********************************************-->
+    <div id="mask6" class="hidden6"></div>
+      <div id="modal6" class="hidden6">
+        
+        <h2 class="cta-text">
+          Subscribe to our Newsletter now and you’ll get 20% off your first shoot at our studio.
+        </h2>
 
-      <ul class="footer-links">
-        <li><a href="privacy_policy.html">Privacy Policy</a></li>
-        <li><a href="sitemap.html">Site Map</a></li>
-        <li><a href="plan_and_cost.html">Plan & Cost</a></li>
-        <li><a class="active" href="photographers.html#job">Recruitment</a></li>
+        <p class="cta-text2">Please enter your email address here</p>
 
-      </ul>
-    </div> 
+          <div class="vip-join">
+            <input type="email" class="btn-popup" name="mail" placeholder="email@example.com" required>
+            <button id="btn16" type="submit" class="btn-primary-4">Subscribe</button>
+          </div>
+        
+        <p class="cta-text3">
+          By signing up, you confirm you’ve read our privacy notice and are happy for us to send you marketing emails. You can unsubscribe at any time by using either sending message or clicking the unsubscribe link at the bottom of our Newsletters.
+        </p>
+      </div>
+    <!-- CTA popup End********************************************-->
 
+    <div class="footer-end">
+      <p>Copyright &copy; 2024 Riverside Studio</p>
+    </div>
     
   </footer>
 </body>

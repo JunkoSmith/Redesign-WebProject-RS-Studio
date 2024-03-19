@@ -8,10 +8,11 @@
   <title>RS Studio - Studios</title>
 
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="icon" href="favicon/favicon.ico" id="favicon">
-  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.ico">
+  <link rel="icon" href="../favicon/favicon.ico" id="favicon">
+  <link rel="apple-touch-icon" href="../favicon/apple-touch-icon.ico">
 
   <script src="../scripts/mobileNav.js" defer></script>
+  <script src="../scripts/catNewsLetter.js" defer></script>
   <script src="../scripts/subscribeEmail.js" defer></script>
   
 </head>
@@ -19,56 +20,14 @@
 <body id="top">
   
   <header class="page-header">
-    <section class="hero">
+    <section class="hero">      
       <div class="header-button">
 
-        <div class="header-left">
-          <a class="language-btn" id="lng-btn">
-            <img src="../images/language_button.png" alt="choose language button">
-          </a>
-          <a href="javascript:;" class="pulldown-btn" id="pld-btn">
-            <img src="../images/pulldown_button.png" alt="pulldown button to choose language">
-          </a>
-
-          <nav class="lng-navigation" id="pld-list">
-            <a href="javascript:;" class="close-btn" id="cls-btn">
-                <img src="../images/button_close.png" alt="close button for mobile nav">
-            </a>
-            <ul class="pulldown-list">
-              <li><a href="#">English</a></li>
-              <li><a href="#">French</a></li>
-              <li><a href="#">German</a></li>
-              <li><a href="#">Italy</a></li>
-            </ul>
-          </nav>
-
-          <a href="javascript:;" class="login-btn" id="log-btn">
-            <img src="../images/login_button.png" alt="Login button">
-          </a>
-
-          <div class="login-form" id="log-form">
-            <form action="#" method="post">
-              <h6>Log In</h6>
-
-              <div class="subscribe">
-                <label for="email-1">Email</label>
-                <input id="email-1" class="email-1" type="email"  name="email" autocomplete="email">
-              </div>
-
-              <div class="subscribe">
-                <label for="password-1">Password</label>
-                <input id="password-1" class="password-1" type="password" >
-              </div>
-              
-              <input class= "submit-login" type="submit" value="Log in" >
-            </form>
-          </div>
-        </div>
+        <div class="header-left"></div>
 
         <div class="header-middle">
           <a href="../index.html">
-            <h1 class="hero-title">RiverSide Studio</h1>
-            <h3 class="hero-subtitle">Scotland</h3>
+            <img src="../images/Logo_Typo.png" alt="Logo of Company" class="page-typo">
           </a>
         </div>
 
@@ -83,243 +42,201 @@
             </a>
             <ul class="navigation-list">
               <li><a href="../index.html">Home</a></li>
-              <li><a class="active" href="studio.html">Studio</a></li>
+              <li><a class="active" href="studio.html">Studios</a></li>
               <li><a href="services.html">Services</a></li>
               <li><a href="photographers.html">Photographers</a></li>
               <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>           
+        </div>
+
+      </div>
+    </section>  
+
+  <!-- @media size 1366px Start ***************************************************-->
+    <section class="desktop-header">          
+      <div class="header-button">
+        <div class="header-middle">
+          <a href="../index.html">
+            <img src="../images/Logo_Typo.png" alt="Logo of Company" class="page-typo">
+          </a>
+        </div>         
+      
+        <div class="desktop-menu">
+          <nav class="desktop-navigation">
+            <ul class="navigation-menu">
+              <li><a href="../index.html">Home</a></li>
+              <li><a class="active" href="studio.html">Studios</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="photographers.html">Photographers</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
-      </div>
+      </div>   
 
     </section>
-  </header>
-
-<!-- @media size 1366px Start-->
-  <header class="desktop-header">
-    <section class="header-top">
-      <div class="header-text">
-        <a href="../index.html">
-          <h1 class="header-title">RiverSide Studio</h1>
-          <h3 class="header-subtitle">Scotland</h3>
-        </a>
-      </div>
-
-      <div class="language-right">
-        <nav class="navigation-right">
-          <ul class="list-right">
-            <li>Language</li>
-            <li><a href="#">EN</a></li>
-            <li><a href="#">FR</a></li>
-            <li><a href="#">GE</a></li>
-            <li><a href="#">IT</a></li>
-            <li>
-              <a href="javascript:;" class="login-right-btn" id="log-right-btn">
-              <img src="../images/login_button.png" alt="Log-in button on list-right hand side">
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="login-right-form" id="log-dsk-form">
-          <form action="#" method="post">
-            <h6>Log In</h6>
-            <div class="subscribe">
-              <label for="email-2">Email</label>
-              <input id="email-2" type="email" class="email-2" name="email" autocomplete="email" />
-            </div>
-
-            <div class="subscribe">
-              <label for="password-2">Password</label>
-              <input id="password-2" type="password" class="password-2" />
-            </div>
-            
-            <input class= "submit-login" type="submit" value="Log in" >
-          </form>
-        </div>
-
-      </div>
-      <div class="desktop-menu">
-        <nav class="desktop-navigation">
-          <ul class="navigation-menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a class="active" href="studio.html">Studio</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="photographers.html">Photographers</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-  </header>
-<!-- @media size 1366px End-->
+  </header>  
+  <!-- @media size 1366px End *****************************************************-->
 
   <main class="page-content">
     
     <section class="section-services">
-      <div class="studio">
-        <p >Studio</p>
+      <div class="services-title">
+        <h1>Photo and Film Studio</h1>
       </div>
-      <div class="under-line">
-        <h2 >Our Photo and Film Studio</h2>
+      <div class="copywriting_services">
+        <p>
+          Current studios are situated in Dundee City Centre and Perth with a soon-to-open studio featuring all new videography facilities in the heart of trendy Broughty Ferry. 
+        </p>
+        <p>
+          This studio will provide a full suite of photography, videography and branding services dedicated to helping promote local businesses big and small.
+        </p>
       </div>
       
-      <div class="services-container">
+      <div class="studio-box">
+        <a id="studio1" class="anchor"></a>
+        <div class="under-line">
+          <h4>Studio 1</h4>
+        </div>
+        
+        <div class="studio-card"> <!-- Stuio-1 Card Start -->        
+          
+          <div class="card-top">
+            <div class="studio-inner">
+              <a class="service" href="studio.html">
+                <img src="../images/studio01Dundee.jpg" alt="Image of the Dundee studio" class="service-image">
+              </a>
+            </div>
+            <div class="studio-inner">
+              <h2>Studio 1 / Dundee</h2>
+              <p>
+                This is the first of our main studios to open. It has a nostalgic look and a classic, retro feel. The studio is located in the city center of Dundee, so it has good transportation access. We offer a wide range of services from portrait photography for individuals to publicity photography for companies.
+              </p>
+              <a href="services.html" class="btn-primary">
+                Check Services
+              </a>
+            </div>
+          </div>
 
-        <div class="service-card">
-          <h4>Studio 1 / Dundee</h4>
-          <div class="card-inner">
-            <a class="service" href="studio.html">
-              <img src="../images/studio01Dundee.jpg" alt="Image of the Dundee studio" class="service-image">
-            </a>
-            <p>
-              This is the first of our main studios to open. It has a nostalgic look and a classic, retro feel. The studio is located in the city center of Dundee, so it has good transportation access. We offer a wide range of services from portrait photography for individuals to publicity photography for companies.
-            </p>
-          </div>
-            <a href="services.html" class="btn-primary">
-              Check Our Services
-            </a>
-          <div class="studio-container">
-            <img src="../images/studio02Dundee.jpg" alt="Image of the Dundee studio" class="image">
-            <div class="overlay">
-              <div class="text">Studio 1 / Dundee</div>
+          <div class="card-bottom">
+            <div class="studio-inner">
+              <div class="studio-container">
+                <img src="../images/studio02Dundee.jpg" alt="Image of the Dundee studio" class="image">
+                <div class="overlay">
+                  <div class="text">Studio 1 / Dundee</div>
+                </div>
+              </div>
+            </div>
+            <div class="studio-inner">
+              <div class="studio-container">
+                <img src="../images/studio03Dundee.jpg" alt="Image of the Dundee studio" class="image">
+                <div class="overlay">
+                  <div class="text">Studio 1 / Dundee</div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="studio-container">
-            <img src="../images/studio03Dundee.jpg" alt="Image of the Dundee studio" class="image">
-            <div class="overlay">
-              <div class="text">Studio 1 / Dundee</div>
-            </div>
-          </div>
+
+        </div> <!-- Stuio-1 Card End -->
+        
+        <a id="studio2" class="anchor"></a>
+        <div class="under-line">
+          <h4>Studio 2</h4>
         </div>
 
-        <div class="service-card">
-          <h4>Studio 2 / Perth</h4>
-          <div class="card-inner">
-          <a class="service" href="services.html">
-            <img src="../images/studio04Perth.jpg" alt="Image of the Reception space" class="service-image">
-          </a>
-          <p>
-            The second studio is a friendly space in the good old Brooklyn style, with the concept of a homely atmosphere surrounded by greenery and nature. Car parking facilities are also available. We provide shooting for events and rental services for studios and equipment. If you are thinking of creating you own project, we will be happy to help.
-          </p>
-          </div>
-            <a href="services.html" class="btn-primary">
-              Check Our Services
-            </a>
-          <div class="studio-container">
-            <img src="../images/studio05Perth.jpg" alt="Image of the Dundee studio" class="image">
-            <div class="overlay">
-              <div class="text">Studio 2 / Perth</div>
+        <div class="studio-card"> <!-- Stuio-2 Card Start --> 
+          
+          <div class="card-top">
+            <div class="studio-inner">
+              <h2>Perth</h2>
+              <p>
+                The second studio is a friendly space in the good old Brooklyn style, with the concept of a homely atmosphere surrounded by greenery and nature. Car parking facilities are also available. We provide shooting for events and rental services for studios and equipment. If you are thinking of creating you own project, we will be happy to help.
+              </p>
+              <a href="services.html" class="btn-primary">
+                Check Services
+              </a>
             </div>
-          </div>
-          <div class="studio-container">
-            <img src="../images/studio06Perth.jpg" alt="Image of the Dundee studio" class="image">
-            <div class="overlay">
-              <div class="text">Studio 2 / Perth</div>
+            <div class="studio-inner">
+              <a class="service" href="services.html">
+                <img src="../images/studio04Perth.jpg" alt="Image of the Reception space" class="service-image">
+              </a>
             </div>
           </div>
           
-        </div>
-
-        <div class="service-card">
+          <div class="card-bottom">
+            <div class="studio-inner">
+              <div class="studio-container">
+                <img src="../images/studio05Perth.jpg" alt="Image of the Dundee studio" class="image">
+                <div class="overlay">
+                  <div class="text">Studio 2 / Perth</div>
+                </div>
+              </div>
+            </div>
+            <div class="studio-inner">
+              <div class="studio-container">
+                <img src="../images/studio06Perth.jpg" alt="Image of the Dundee studio" class="image">
+                <div class="overlay">
+                  <div class="text">Studio 2 / Perth</div>
+                </div>
+              </div>         
+            </div>
+          </div>
+          
+        </div> <!-- Stuio-2 Card End -->
+        
+        <a id="studio3" class="anchor"></a>
+        <div class="under-line">
           <h4>Studio 3 / Coming soon</h4>
-          <div class="card-inner">
-          <a class="service" href="photographers.html">
-            <img src="../images/studio09New.jpg" alt="Image of a photographer John" class="service-image">
-          </a>
-          <p>
-            Our new modern and spacious studio in Broughty Ferry is about to open. It will have all the equipment needed to shoot video and will be up-to-date with the latest video shooting techniques and processes. In addition, the much-requested pet photography service will start.
-          </p>
-          </div> 
-            <a href="services.html" class="btn-primary">
-              Check Our Services
-            </a>
-          <div class="studio-container">
-            <img src="../images/new05.jpg" alt="Image of video camera" class="image">
-            <div class="overlay">
-              <div class="text">Video shooting plan will be available soon</div>
+        </div>
+
+        <div class="studio-card"> <!-- Stuio-3 Card Start --> 
+          
+          <div class="card-top">
+            <div class="studio-inner">
+              <a class="service" href="photographers.html">
+                <img src="../images/studio09New.jpg" alt="Image of a photographer John" class="service-image">
+              </a>
+            </div>
+            <div class="studio-inner">
+              <h2>Broughty Ferry</h2>
+              <p>
+                Our new modern and spacious studio in Broughty Ferry is about to open. It will have all the equipment needed to shoot video and will be up-to-date with the latest video shooting techniques and processes. In addition, the much-requested pet photography service will start.
+              </p>           
+              <a href="services.html" class="btn-primary">
+                Check Services
+              </a>
             </div>
           </div>
-          <div class="studio-container">
-            <img src="../images/pet00.jpg" alt="Image of the pet photo" class="image">
-            <div class="overlay">
-              <div class="text">Family pet photo will be available soon</div>
+ 
+          <div class="card-bottom">
+            <div class="studio-inner">
+              <div class="studio-container">
+                <img src="../images/new05.jpg" alt="Image of video camera" class="image">
+                <div class="overlay">
+                  <div class="text">Video shooting plan will be available soon</div>
+                </div>
+              </div>
+            </div>
+            <div class="studio-inner">
+              <div class="studio-container">
+                <img src="../images/pet00.jpg" alt="Image of the pet photo" class="image">
+                <div class="overlay">
+                  <div class="text">Family pet photo will be available soon</div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+          
+        </div><!-- Stuio Card End -->
 
       </div>
-    </section>
-
-    <section class="section-table">
-      <div class="under-line">
-       <h2>Opening Hours</h2>
-      </div>
-
-      <table>
-        <tr>
-          <th>Day</th>
-          <th>Times</th>
-        </tr>
-
-        <tr>
-          <td>Weekdays</td>
-          <td>10am - 5pm</td>
-        </tr>
-
-        <tr>
-          <td>Saturdays</td>
-          <td>10am - 5pm</td>
-        </tr>
-
-        <tr>
-          <td>Sundays</td>
-          <td>12pm - 3pm</td>
-        </tr>
-
-        <tr>
-          <td>Wednesdays</td>
-          <td>Closed</td>
-        </tr>
-      </table>
-
-      <a href="contact.html#visit" class="btn-primary">Book Your Visit</a>
-
-    </section>
-
-    <section class="section-contact">
-      
-      <div class="under-line">
-       <h2>Contact</h2>
-      </div>
-      <div class="contact-box">
-        <div class="contact-studio">
-          <h4><u>Studio 1 / Dundee</u></h4>
-            <p>1234-555-666</p>
-            <a class="job-mail" href="mailto:Riverside-Studios.uk"> Riverside-Studios.uk</a>
-            <p>111Dundee Road Dundee<br>Scotland, DD11SE</p>
-        </div>
-
-        <div class="contact-studio">
-          <h4><u>Studio 2 / Perth</u></h4>
-            <p>1256-777-888</p>
-            <a class="job-mail" href="mailto:Riverside-Studios.uk"> Riverside-Studios.uk</a>
-            <p>222Perth Road, Perth<br>Scotland, PH11AA</p>
-        </div>
-
-        <div class="contact-studio">
-          <h4><u>Studio 3 / Broughty Ferry</u></h4>
-          <p>Coming soon</p>
-        </div>
-      </div>
-        <a href="contact.html" class="btn-contact">Contact Us</a>
-
     </section>
 
     <section class="section-subscribe">
-      <h4>Subscribe to our news letter to get special offers</h4>
+      <h2>Subscribe to our news letter to get special offers</h2>
 
       <div class="subscribe-email">
         <form action="#" method="post">
@@ -328,7 +245,7 @@
             <input id="email" class="email" type="email"  name="email" autocomplete="email">         
           </div>
           
-            <input class= "submit" type="submit" value="Subscribe">
+            <input class= "submit" type="submit" value="Receive Newsletter">
         </form>
       </div>
     </section>
@@ -359,19 +276,46 @@
       
     </div>
 
-    <div class="footer-colum">
+    <div class="footer-back">
       <a href="#top">Back to top</a>
-      
-      <p>Riverside Studio &copy;2021</p>
+    </div>
+    
+    <div class="footer-colum">
+      <div class="footer-links">
+        <ul>
+          <li><a href="privacy_policy.html">Privacy Policy |</a></li>
+          <li><a href="contact.html">Contact |</a></li>
+          <li><a href="services.html">New Services |</a></li>
+          <li><button id="btn4">Newsletter |</button></li>
+          <li><a href="reviews.html">Reviews |</a></li>
+          <li><a href="photographers.html#job">Careers</a></li>
+        </ul>  
+      </div>
+    </div>
+    <!-- CTA popup Start********************************************-->
+    <div id="mask4" class="hidden4"></div>
+      <div id="modal4" class="hidden4">
+        
+        <h2 class="cta-text">
+          Subscribe to our Newsletter now and you’ll get 20% off your first shoot at our studio.
+        </h2>
 
-      <ul class="footer-links">
-        <li><a href="privacy_policy.html">Privacy Policy</a></li>
-        <li><a href="sitemap.html">Site Map</a></li>
-        <li><a href="comming-soon.html">Plan & Cost</a></li>
-        <li><a href="photographers.html#job">Recruitment</a></li>
-      </ul>
-    </div> 
+        <p class="cta-text2">Please enter your email address here</p>
 
+          <div class="vip-join">
+            <input type="email" class="btn-popup" name="mail" placeholder="email@example.com" required>
+            <button id="btn14" type="submit" class="btn-primary-4">Subscribe</button>
+          </div>
+        
+        <p class="cta-text3">
+          By signing up, you confirm you’ve read our privacy notice and are happy for us to send you marketing emails. You can unsubscribe at any time by using either sending message or clicking the unsubscribe link at the bottom of our Newsletters.
+        </p>
+      </div>
+    <!-- CTA popup End********************************************-->
+
+    <div class="footer-end">
+      <p>Copyright &copy; 2024 Riverside Studio</p>
+    </div>
     
   </footer>
 </body>
