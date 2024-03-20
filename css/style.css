@@ -833,7 +833,18 @@ form .submit:hover {
   height: 100%;
   background-color: rgba(28, 13, 57, 0.223);
 }
-
+.text-new {
+  color: #fcc50f;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .text {
   color: #ffffff;
   font-size: 1.125rem;
